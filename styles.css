@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: whitesmoke;
+  font-family: sans-serif;
+}
+
+header {
+  background: white;
+  box-shadow: 0 0 10px 5px rgb(228, 228, 228);
+}
+
+.header-container {
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sign-in {
+  background: rgb(216, 216, 216);
+  padding: 0.9rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sign-in:hover {
+  background: rgb(201, 201, 201);
+}
+
+section {
+  height: 70rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  height: 30rem;
+  width: 30rem;
+  background: rgb(216, 216, 216);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+
+.square {
+  background: whitesmoke;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.square:hover {
+  background: rgb(240, 240, 240);
+}
